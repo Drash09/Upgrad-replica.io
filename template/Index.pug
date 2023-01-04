@@ -1,0 +1,131 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title UpGrad(Replica)- for HTML, CSS, JS Best learning platform
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:wght@700&    display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='../static/index.css')
+  script(src='../static/index.js')
+  script(src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js")
+nav#navbar.animation
+  span#navlogo
+    img#img(src='../static/logo.png' alt='UpGrad..')
+  #navmenu
+    ul#navitems
+      li#item1.navitem
+        a(href='#') EXPLORE COURSES
+      li#item2.navitem
+        a(href='#') BLOG
+      li#item3.navitem
+        a(href='#') MBA, MANAGEMENT &amp; DEGREE
+      li#item4.navitem
+        a(href='#') TOP INSTITUTES
+      li#item5.navitem
+        a(href='/loginnn') EXPLORE SKILLS
+  div
+    //- a.navsearch.navitem(href='#')  
+    button#btn-login(disabled='true' onclick='login()') Log in
+    button#btn-logout(disabled='true' onclick='logout()') Log out
+
+.main
+  #templatebox
+    main
+      img(src='../static/web banner.png' alt='UpGrad..')
+      span#slogan
+        h1 HTML,CSS
+        h3 Project Webpage
+        #offer  Book a Free Counselling Session For Your Career Planning
+        button#ok.btnn(onclick='hide()') Get 1 on 1 Counselling Help
+        div
+          label#arrow(for='em') ^
+  #loginbox
+    form.form(action='/',method="post")
+      h4 Start Your Upskilling Journey Now
+      input#visitername.input(type='text' name='visitername' placeholder='Full Name*')
+      br
+      select#visitercourse.input(name='visitercourse')
+        option(value='Select Course') Select Course
+        option(value='HTML') HTML
+        option(value='CSS') CSS
+        option(value='JS') JS
+      br
+      select#visiterprogram.input(name='visiterprogram')
+        option(value='Select Progarm') Select Progarm
+        option(value='HTML webpage') HTML webpage
+        option(value='CSS webpage') CSS webpage
+        option(value='JS webpage') JS webpage
+      br
+      input#visiteremail.input(type='email' name='visiteremail' placeholder='Email')
+      br
+      input#visiternumber.input(type='text' name='visiternumber' placeholder='Phone No.')
+      br
+      input.btn(type='submit' value='SUBMITE')
+      br
+      em By clicking &apos;Submit&apos; you Agree to UpGrad&apos;s Terms &amp; Conditions
+#blogbox
+  #heading
+    h1#h1 10 Interesting HTML Project Ideas &amp; Topics For Beginners [2022]
+  #blog
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, debitis! Accusamus nesciunt corrupti ea velit ipsa saepe illum dignissimos dolor, facere perferendis quod quas quibusdam aliquid quisquam et, sed repellendus?
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt iusto ipsum voluptates nisi. Quo delectus ipsum modi at, quod praesentium tempora labore ullam est quam magni, temporibus eius quisquam quidem nesciunt deleniti. Eius incidunt officiis doloribus quasi placeat excepturi totam ab deserunt error, assumenda quidem tempora culpa dicta possimus vitae dolorem consequuntur optio qui laborum! Eaque atque expedita voluptatum ea rerum, distinctio doloribus commodi odit perferendis neque consequuntur quae reprehenderit consectetur explicabo obcaecati at iste perspiciatis dolorem quibusdam incidunt fuga officia molestiae! Veniam, iusto tenetur eos eveniet soluta doloribus facilis cum dicta molestias, sequi modi non magni ad quibusdam!
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti voluptatum quam asperiores iusto exercitationem minus ipsa eligendi? Mollitia et expedita accusantium quod libero? Assumenda quisquam minus numquam dolores aperiam consequatur vitae officiis molestiae consectetur? Alias, aliquid dolores? Reprehenderit aperiam repudiandae ad quae quas sit autem ratione fugit blanditiis incidunt quis obcaecati doloremque corporis, quidem illo saepe omnis aut ducimus!
+    h2 Software Development
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, enim nemo minus ut nulla at nesciunt reprehenderit quaerat tenetur dolor suscipit amet ipsum natus non corporis perspiciatis, placeat omnis ea dolorum debitis. Rem dolor voluptas maiores aspernatur, beatae nihil modi accusamus culpa optio facere ea hic ex ratione at numquam.
+    p
+      | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde harum tempore quaerat laudantium illum alias, quas earum necessitatibus ratione minima totam ut sed cupiditate, fugiat in eos nisi quod eius at ipsa, quidem rerum qui. Animi nemo mollitia tenetur, atque ullam id rerum, sapiente consequatur, illum delectus natus repellat laborum facilis commodi maxime vero obcaecati fugit excepturi earum et est aliquam illo quisquam! Dicta quo cupiditate dignissimos facilis repellendus ad tempore sapiente. Eum consectetur necessitatibus assumenda officiis corrupti qui quibusdam, totam vitae, error rerum cum soluta consequuntur cupiditate culpa unde impedit sequi sunt eius amet odit? Quidem, laborum alias?
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, debitis! Accusamus nesciunt corrupti ea velit ipsa saepe illum dignissimos dolor, facere perferendis quod quas quibusdam aliquid quisquam et, sed repellendus?
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt iusto ipsum voluptates nisi. Quo delectus ipsum modi at, quod praesentium tempora labore ullam est quam magni, temporibus eius quisquam quidem nesciunt deleniti. Eius incidunt officiis doloribus quasi placeat excepturi totam ab deserunt error, assumenda quidem tempora culpa dicta possimus vitae dolorem consequuntur optio qui laborum! Eaque atque expedita voluptatum ea rerum, distinctio doloribus commodi odit perferendis neque consequuntur quae reprehenderit consectetur explicabo obcaecati at iste perspiciatis dolorem quibusdam incidunt fuga officia molestiae! Veniam, iusto tenetur eos eveniet soluta doloribus facilis cum dicta molestias, sequi modi non magni ad quibusdam!
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti voluptatum quam asperiores iusto exercitationem minus ipsa eligendi? Mollitia et expedita accusantium quod libero? Assumenda quisquam minus numquam dolores aperiam consequatur vitae officiis molestiae consectetur? Alias, aliquid dolores? Reprehenderit aperiam repudiandae ad quae quas sit autem ratione fugit blanditiis incidunt quis obcaecati doloremque corporis, quidem illo saepe omnis aut ducimus!
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, enim nemo minus ut nulla at nesciunt reprehenderit quaerat tenetur dolor suscipit amet ipsum natus non corporis perspiciatis, placeat omnis ea dolorum debitis. Rem dolor voluptas maiores aspernatur, beatae nihil modi accusamus culpa optio facere ea hic ex ratione at numquam.
+    p
+      | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde harum tempore quaerat laudantium illum alias, quas earum necessitatibus ratione minima totam ut sed cupiditate, fugiat in eos nisi quod eius at ipsa, quidem rerum qui. Animi nemo mollitia tenetur, atque ullam id rerum, sapiente consequatur, illum delectus natus repellat laborum facilis commodi maxime vero obcaecati fugit excepturi earum et est aliquam illo quisquam! Dicta quo cupiditate dignissimos facilis repellendus ad tempore sapiente. Eum consectetur necessitatibus assumenda officiis corrupti qui quibusdam, totam vitae, error rerum cum soluta consequuntur cupiditate culpa unde impedit sequi sunt eius amet odit? Quidem, laborum alias?
+    h2 Explore Our Software Development Free Courses
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, debitis! Accusamus nesciunt corrupti ea velit ipsa saepe illum dignissimos dolor, facere perferendis quod quas quibusdam aliquid quisquam et, sed repellendus?
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam incidunt iusto ipsum voluptates nisi. Quo delectus ipsum modi at, quod praesentium tempora labore ullam est quam magni, temporibus eius quisquam quidem nesciunt deleniti. Eius incidunt officiis doloribus quasi placeat excepturi totam ab deserunt error, assumenda quidem tempora culpa dicta possimus vitae dolorem consequuntur optio qui laborum! Eaque atque expedita voluptatum ea rerum, distinctio doloribus commodi odit perferendis neque consequuntur quae reprehenderit consectetur explicabo obcaecati at iste perspiciatis dolorem quibusdam incidunt fuga officia molestiae! Veniam, iusto tenetur eos eveniet soluta doloribus facilis cum dicta molestias, sequi modi non magni ad quibusdam!
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti voluptatum quam asperiores iusto exercitationem minus ipsa eligendi? Mollitia et expedita accusantium quod libero? Assumenda quisquam minus numquam dolores aperiam consequatur vitae officiis molestiae consectetur? Alias, aliquid dolores? Reprehenderit aperiam repudiandae ad quae quas sit autem ratione fugit blanditiis incidunt quis obcaecati doloremque corporis, quidem illo saepe omnis aut ducimus!
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, enim nemo minus ut nulla at nesciunt reprehenderit quaerat tenetur dolor suscipit amet ipsum natus non corporis perspiciatis, placeat omnis ea dolorum debitis. Rem dolor voluptas maiores aspernatur, beatae nihil modi accusamus culpa optio facere ea hic ex ratione at numquam.
+    p
+      | Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt unde harum tempore quaerat laudantium illum alias, quas earum necessitatibus ratione minima totam ut sed cupiditate, fugiat in eos nisi quod eius at ipsa, quidem rerum qui. Animi nemo mollitia tenetur, atque ullam id rerum, sapiente consequatur, illum delectus natus repellat laborum facilis commodi maxime vero obcaecati fugit excepturi earum et est aliquam illo quisquam! Dicta quo cupiditate dignissimos facilis repellendus ad tempore sapiente. Eum consectetur necessitatibus assumenda officiis corrupti qui quibusdam, totam vitae, error rerum cum soluta consequuntur cupiditate culpa unde impedit sequi sunt eius amet odit? Quidem, laborum alias?
+footer.footer
+  h2 UpGrad
+  hr
+  em#em Building Careers of Tomorrow
+script.
+  //     console.log(h1);
+  //     function hide(){
+  //         let em = document.getElementById('h1');
+  //         if (em.style.display !='none') {
+  //         em.style.display = 'none';
+  //         }
+  //         else{
+  //         em.style.display = 'block';
+  //         };
+  // }
